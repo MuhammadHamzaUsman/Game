@@ -1,0 +1,129 @@
+{
+    "turret_type_1": {
+        "turret_sprite": "🔭", 
+        "direction_to_fire": "up", 
+        "firing_mode": "laser", 
+        "bullet_direction": "up", 
+        "bullet_damage": 1, 
+        "bullet_sprite": "🟡", 
+        "fire_every_tick": 36,
+        "direction_of_rotation": false,
+        "rotation" : false,
+        "firing_groups" : 1,
+        "has_condition" : 1
+        },
+    "turret_type_2": {
+        "turret_sprite": "🔭", 
+        "direction_to_fire": "up", 
+        "firing_mode": "simple", 
+        "bullet_direction": "random", 
+        "bullet_damage": 2, 
+        "bullet_sprite": "🔴", 
+        "fire_every_tick": 36,
+        "direction_of_rotation": false,
+        "rotation" : false,
+        "firing_groups" : 2,
+        "has_condition" : 1
+        },
+    "turret_type_3": {
+        "turret_sprite": "🔭", 
+        "direction_to_fire": "up", 
+        "firing_mode": "simple", 
+        "bullet_direction": "left", 
+        "bullet_damage": 1, 
+        "bullet_sprite": "🟠", 
+        "fire_every_tick": 36,
+        "direction_of_rotation": true,
+        "rotation" : ["left","down","right"],
+        "firing_groups" : 0,
+        "has_condition" : 1
+        },
+    "endcell": {
+        "sprite": "🟩"
+        }, 
+    "wall1": {
+        "sprite": "⬛",
+        "has_condition" : false
+        },
+    "wall2": {
+        "sprite": "⬛",
+        "has_condition" : 1
+        }, 
+    "wall3": {
+        "sprite": "⬛",
+        "has_condition" : 2
+        }, 
+    "player": {
+        "sprite": "🚔", 
+        "health": 15,
+        "health_sprite" : "💗",
+        "consumed_health_sprite" : "🤍"
+        },
+    "condition1" :  {
+        "sprite": "🟨",
+        "has_condition" : 1,
+        "view_distance_n" : false
+        },
+    "condition2" :  {
+        "sprite": "🟨",
+        "has_condition" : 2,
+        "view_distance_n" : [2,2]
+        },
+    "turret_type_4": {
+        "turret_sprite": "🔭", 
+        "direction_to_fire": "right", 
+        "firing_mode": "simple", 
+        "bullet_direction": "right", 
+        "bullet_damage": 2, 
+        "bullet_sprite": "🟡", 
+        "fire_every_tick": 36,
+        "direction_of_rotation": false,
+        "rotation" : false,
+        "firing_groups" : 1,
+        "has_condition" : 3
+        },
+    "turret_type_5": {
+        "turret_sprite": "🔭", 
+        "direction_to_fire": "right", 
+        "firing_mode": "simple", 
+        "bullet_direction": "right", 
+        "bullet_damage": 2, 
+        "bullet_sprite": "🔴", 
+        "fire_every_tick": 36,
+        "direction_of_rotation": false,
+        "rotation" : false,
+        "firing_groups" : 2,
+        "has_condition" : 3
+        },
+    "turret_type_6": {
+        "turret_sprite": "🔭", 
+        "direction_to_fire": "up", 
+        "firing_mode": "laser", 
+        "bullet_direction": "random", 
+        "bullet_damage": 4, 
+        "bullet_sprite": "🔘", 
+        "fire_every_tick": 36,
+        "direction_of_rotation": false,
+        "rotation" : false,
+        "firing_groups" : 3,
+        "has_condition" : false
+        },
+    "condition3" :  {
+        "sprite": "🟨",
+        "has_condition" : 3,
+        "view_distance_n" : [2,2]
+        },
+    "condition4" :  {
+        "sprite": "🟨",
+        "has_condition" : 4,
+        "view_distance_n" : false
+        },
+    "wall4": {
+        "sprite": "🟫",
+        "has_condition" : 3
+        }, 
+    "wall5": {
+        "sprite": "🟫",
+        "has_condition" : 4
+        }
+}

@@ -1,0 +1,28 @@
+{
+    "1" : [
+        ["wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1", "wall1","wall1","wall1","wall1","wall1","wall1"],
+        ["wall1","player","wall1","endcell","empty","empty","empty","empty","empty","empty","empty","empty","empty","empty","empty","wall1"],
+        ["wall1","empty","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall2","wall1"],
+        ["wall1","empty","wall2","empty","empty","empty","turret_type_3","empty","empty","empty","empty","empty","empty","empty","empty","wall1"],
+        ["wall1","empty","wall1","empty","empty","empty","empty","empty","empty","empty","empty","empty","empty","empty","empty","wall1"],
+        ["wall1","condition1","wall1","empty","empty","empty","empty","empty","empty","empty","empty","empty","empty","empty","condition1","wall1"],
+        ["wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1"]
+    ],
+    "2" : [
+        ["wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1","wall1"],
+        ["wall1","player","empty","empty","empty","empty","empty","empty","empty","wall1"],
+        ["wall1","wall1","wall1","wall1","wall4","wall1","wall1","empty","wall1","wall1"],
+        ["wall1","turret_type_4","empty","empty","empty","wall1","empty","empty","empty","wall1"],
+        ["wall1","turret_type_5","empty","empty","empty","wall1","wall1","empty","wall1","wall1"],
+        ["wall1","turret_type_4","empty","empty","empty","wall1","empty","empty","empty","wall1"],
+        ["wall1","turret_type_5","empty","empty","empty","wall1","wall1","empty","wall1","wall1"],
+        ["wall1","turret_type_4","empty","empty","empty","wall1","empty","empty","empty","wall1"],
+        ["wall1","turret_type_5","empty","empty","empty","wall1","wall1","empty","wall1","wall1"],
+        ["wall1","turret_type_4","empty","empty","empty","wall1","empty","empty","empty","wall1"],
+        ["wall1","turret_type_5","empty","empty","empty","wall1","wall1","empty","wall1","wall1"],
+        ["wall1","turret_type_4","empty","empty","empty","wall1","condition3","empty","empty","wall1"],
+        ["wall1","turret_type_5","empty","empty","empty","wall1","wall1","turret_type_6","wall1","wall1"],
+        ["wall1","wall1","wall1","condition4","wall5","wall1","wall1","wall1","wall1","wall1"],
+        ["wall1","wall1","wall1","wall1","endcell","wall1","wall1","wall1","wall1","wall1"]
+    ]
+}
